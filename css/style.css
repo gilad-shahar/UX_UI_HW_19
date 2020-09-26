@@ -1,0 +1,517 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+
+} 
+
+.hero{
+width: 100%;
+height: 100vh;
+background-image: url(../images/back_2.png);
+background-position: center;
+background-size: cover;
+position: relative;
+overflow: hidden;
+  /* RED BORDER 
+  border: 1px red solid;
+  */
+}
+
+
+
+.nav{
+    width: 95%;
+    margin: auto;
+    position: relative;
+    top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* RED BORDER 
+  border: 1px red solid;
+  */
+}
+
+.nav ul{
+    display: flex;
+    justify-content: flex-end;
+
+   
+
+
+}
+
+.nav li{
+
+    color: black;
+    display: flex;
+    padding: 8px 30px 8px 30px;
+    font-weight: 200;
+    font-size: 1.5em;
+    text-decoration: none;
+    
+  
+
+}
+
+a{
+    color: black;
+}
+
+a:link {
+    text-decoration: none;
+  }
+
+  a:visited {
+    text-decoration: none;
+  }
+
+.nav li a:hover{
+    text-decoration-line: underline;
+
+}
+
+
+
+.text{
+    display: flex;
+    position: absolute;
+    top: 250px;
+    left: 50px;
+    flex-direction: column;
+    align-items: flex-start;
+
+  /* RED BORDER 
+  border: 1px red solid;
+  */
+}
+
+.Firstbutton{
+    font-size: 18px;
+    padding: 10px 40px;
+    background-color:#007AFF;
+    color: white;
+    outline: none;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 30px;
+    border: none;
+    margin-top: 15px;
+    
+
+}
+
+h1{
+    font-size: 3.2em;
+    font-weight: 500;
+    margin-bottom: 0.2em;
+}
+
+h2{
+    font-weight: 200;
+    letter-spacing: 0.1em;
+    margin-bottom: 0.2em;
+
+}
+
+.arrow{
+    position: absolute;
+    top: 90%;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+    animation: bounceArrow 1.3s infinite;
+}
+
+
+
+
+
+.button_text{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px;
+
+  /* RED BORDER 
+  border: 1px red solid;
+  */
+}
+
+.button_text h2{
+    color: black;
+    font-weight: 500;
+    font-size: 2em;
+}
+
+.project1{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+
+  /* RED BORDER 
+  border: 1px red solid;
+  */
+  flex-wrap: nowrap;
+
+}
+
+
+.container1{
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    border: 1px black solid;
+    align-items: center;
+    justify-content: center;
+    justify-self: center;
+    flex-wrap: wrap;
+
+}
+
+
+
+.container2{
+    display: flex;
+    flex-flow: column nowrap;
+    border: 1px black solid;
+    padding: 10px;
+    flex-wrap: nowrap;
+
+
+
+}
+
+.container3{
+    display: flex;
+    flex-direction: row;
+    border: 1px black solid;
+    padding: 10px 0px;
+    flex-wrap: nowrap;
+
+}
+
+.pic1{
+}
+
+.pic2{
+
+    
+}
+
+
+
+
+
+.project2{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    width: 100%;
+    background-color: white;
+  /* RED BORDER 
+  border: 1px red solid;
+  */
+    flex-wrap: nowrap;
+
+}
+
+.project2 h1{
+text-align: center;
+margin-top: 40px;
+}
+
+.project2 h2{
+    font-size: 2em;
+    font-weight: 400;
+    margin-bottom: 0.5em;
+    }
+
+.project2 p{
+    margin-bottom: 0.5em;
+}
+
+.works{
+    display: flex;
+    flex-flow: column;
+    margin: 5% 10%;
+    flex-wrap: nowrap;
+
+
+
+    border: 1px blue solid;
+  
+
+}
+
+.work{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 36px;
+    padding: 20px;
+
+    flex-wrap: nowrap;
+    border: black solid 6px;
+        border-radius: 10px;
+
+    /*
+    border: 1px blue solid;
+    */
+
+}
+
+.work_content{
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+    margin-left: 20px;
+    flex-wrap: nowrap;
+ 
+}
+
+
+.work_button{
+    display: block;
+    
+    font-size: 18px;
+    padding: 10px 40px;
+    background-color:#007AFF;
+    color: white;
+    outline: none;
+    font-weight: semibold;
+    cursor: pointer;
+    border-radius: 30px;
+    border: none;
+    margin-top: 60px;
+    align-self: flex-start;
+
+
+}
+
+
+.workpic{
+    display: flex;
+    justify-self: center;
+
+    /*
+    border: 1px blue solid;
+    */
+}
+
+
+
+
+.project3{
+
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    width: 100%;
+    background-color: white;
+  /* RED BORDER 
+  border: 1px red solid;
+  */
+    flex-wrap: nowrap;
+
+    margin: 0px 0px;
+
+}
+
+
+.myskills{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    margin: 5% 10%;
+
+       /*
+    border: 1px blue solid;
+    */
+
+}
+
+
+.skill{
+    display: flex;
+    flex-flow: column;
+    padding: 0.5em 2.5em;
+    border: black solid 6px;
+    border-radius: 10px;
+    text-align: center ;
+    margin: 0px 1em;
+
+       /*
+    border: 1px blue solid;
+    */
+
+}
+
+.project3 h1{
+    text-align: center;
+    margin-top: 40px;
+    }
+
+.skill h2{
+
+        font-size: 2em;
+        font-weight: 400;
+        margin-bottom: 0.5em;
+    }    
+
+.skill p{
+        margin-bottom: 0.5em;
+   
+}
+
+
+.skillpic{
+size: 150px;
+justify-self: flex-start;
+margin-bottom: 2em;
+margin: 1em;
+
+   /*
+    border: 1px blue solid;
+    */
+
+}
+
+
+.main_button{
+    font-size: 18px;
+    padding: 10px 40px;
+    background-color:#007AFF;
+    color: white;
+    outline: none;
+    font-weight: semibold;
+    cursor: pointer;
+    border-radius: 30px;
+    border: none;
+    margin-top: 15px;
+
+}
+
+
+  
+  @keyframes bounceArrow {
+    from {
+      margin-top: 0px;
+    }
+    60% {
+      margin-top: 10px;
+  
+    }
+    to {
+      margin-top: 0px;
+  
+    }
+  }
+
+
+
+@media only screen and (max-width: 600px) {
+
+    .hero{
+        width: 100%;
+        height: 100vh;
+        background-image: url(../images/back-mobile.png);
+        background-position: center;
+        background-size: cover;
+        position: relative;
+        overflow: hidden;
+        }
+
+
+
+.work{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 36px;
+    padding: 20px;
+
+    flex-wrap: wrap;
+
+    background-color: #F4F4F4;
+    border-radius: 10px;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+/* 
+.content{
+    width: 100%;
+}
+
+.box_container h1{
+    color: white;
+    position: relative;
+    top: 50px;
+left: 50px;
+
+}
+
+.box_container{
+
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+    height: 1500px;
+}
+
+
+.box1{
+    width: 80%;
+height: 400px;
+margin: auto;
+border-radius: 20px;
+background: linear-gradient(180deg, #936DFF -27.6%, #017EF9 156.6%);}
+
+.box2{
+    width: 80%;
+height: 400px;
+margin: auto;
+border-radius: 20px;
+background: linear-gradient(193.46deg, #007AFF -18.46%, rgba(1, 195, 111, 0.71) 105.02%);}
+
+
+.box3{
+    width: 80%;
+height: 400px;
+margin: auto;
+border-radius: 20px;
+background: linear-gradient(317.96deg, #FFDE7B -3.79%, #00C26F 111.56%);}
+
+
+<section class="content">
+
+<div class="box_container">
+
+    <div class="box box1">
+        <h1>Project 1</h1>
+    </div>
+    <div class="box box2">
+        <h1>Project 2</h>
+    </div>
+
+    <div class="box box3">
+        <h1>Project 3</h1>
+    </div>
+
+
+
+</div>
+</section>
+
